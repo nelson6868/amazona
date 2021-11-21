@@ -20,8 +20,8 @@ function App() {
         </header>
         <main>
           <Routes>
-            <Route exact path="/" element={HomeScreen} />
-            <Route path="/product/:id" element={ProductScreen} />
+            <Route exact path="/" element={<HomeScreen/>} />
+            <Route path="/product/:id" element={<ProductScreen/>} />
           </Routes>
         </main>
         <footer className="row center">All right reserved</footer>
