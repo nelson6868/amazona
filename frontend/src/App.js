@@ -29,7 +29,7 @@ function App() {
 
         
         </Routes>
-    
+         {/* <HomeScreen/> */}
        {/* <HomeScreen/> */}
       </main>
       <footer className="row center">All right reserved</footer>
