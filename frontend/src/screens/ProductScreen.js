@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link } from 'react-router-dom';
 import Rating from '../Components/Rating';
 import data from '../data';
 
@@ -15,6 +16,7 @@ export default function ProductScreen(props) {
     return (
 
         <div >
+            <Link to="/">Back to result</Link>
          <div className="row top">
             
              <div className="col-2"> 
