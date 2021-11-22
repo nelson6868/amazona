@@ -7,6 +7,8 @@ import ProductScreen from "./screens/ProductScreen";
 
 
 
+
+
 function App() {
   return (
 
@@ -24,8 +26,9 @@ function App() {
       <main>
       <Routes>
        
-        <Route path='/' component={HomeScreen} exact/>
-        <Route path='/product/:id' component={ProductScreen} exact/>
+        <Route path='/' component={HomeScreen}/>
+        <Route path='/product/:id' component={ProductScreen}/>
+        
 
         
         </Routes>
